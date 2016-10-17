@@ -1,0 +1,8 @@
+a:2:{i:0;a:5:{s:2:"id";s:1:"1";s:5:"titel";s:24:"Blindheit per Definition";s:11:"erstellt_am";s:10:"1476436825";s:5:"autor";s:7:"inewton";s:6:"inhalt";s:406:"Mit Blindheit per Definition geschlagen, dennoch nicht unsichtbar,
+präsentiere ich mich als unbeachtetes und ungeliebtes Stiefkind
+zeitgenössischer Literatur. Meine Bestimmung liegt - wie ich selbst -
+in engen Grenzen und ist rein platzhalterischer Natur.
+
+Kann ein missbrauchtes Wortgefüge eigentlich noch Schlimmeres
+erleiden, als als Blindtext erdacht und vor der Öffentlichkeit
+versteckt zu werden?";}i:1;a:4:{s:5:"titel";s:7:"haloooo";s:6:"inhalt";s:11:"Bist du da?";s:5:"autor";s:7:"inewton";s:11:"erstellt_am";i:1476441212;}}

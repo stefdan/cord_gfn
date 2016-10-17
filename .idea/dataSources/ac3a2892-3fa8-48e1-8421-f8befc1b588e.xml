@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="MySQL - filmsammlung@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+    <schema id="1" name="filmsammlung">
+      <visible>1</visible>
+    </schema>
+    <schema id="2" name="4typo3"/>
+    <schema id="3" name="information_schema"/>
+    <schema id="4" name="mysql"/>
+    <schema id="5" name="performance_schema"/>
+    <schema id="6" name="phpmyadmin"/>
+    <schema id="7" name="test"/>
+    <schema id="8" name="tuto"/>
+    <schema id="9" name="world"/>
+    <table id="10" parent="1" name="filme"/>
+    <table id="11" parent="1" name="genres"/>
+    <column id="12" parent="10" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="13" parent="10" name="titel">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="14" parent="10" name="veroeffentlichung">
+      <data-type>date|0</data-type>
+    </column>
+    <column id="15" parent="10" name="dauer">
+      <data-type>int(5)|0</data-type>
+    </column>
+    <column id="16" parent="10" name="genre_id">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <key id="17" parent="10" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="18" parent="11" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="19" parent="11" name="titel">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <index id="20" parent="11" name="titel">
+      <columns>titel</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+    </index>
+    <key id="21" parent="11" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <key id="22" parent="11" name="titel">
+      <columns>titel</columns>
+      <underlying-index>titel</underlying-index>
+    </key>
+  </database-model>
+</dataSource>
